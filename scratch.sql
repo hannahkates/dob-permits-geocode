@@ -8,6 +8,7 @@ sourcebbl numeric,
 responsebbl numeric
 )
 
+SELECT UpdateGeometrySRID('dob_permitsnotfound','geom',4326);
 
 1000920001
 

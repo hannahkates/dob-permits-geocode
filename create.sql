@@ -2,7 +2,7 @@
 DROP TABLE IF EXISTS dob_permits;
 CREATE TABLE dob_permits (
   borough text,
-  binnumber text,
+  binnumber numeric,
   housenumber text,
   streetname text,
   jobnumber  text,

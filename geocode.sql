@@ -10,3 +10,4 @@ SET    geom = ST_Centroid(b.geom)
 FROM   doitt_buildingfootprints b
 WHERE  a.binnumber::numeric = b.bin
 AND a.geom IS NULL;
+
